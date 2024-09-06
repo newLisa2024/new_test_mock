@@ -1,6 +1,5 @@
 import requests
 
-
 def get_random_cat_image():
     url = 'https://api.thecatapi.com/v1/images/search'
     response = requests.get(url)

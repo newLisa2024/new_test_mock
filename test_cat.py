@@ -1,8 +1,6 @@
 import unittest
 from unittest.mock import patch
 from cat import get_random_cat_image  # Импортируем функцию из cat.py
-
-
 class TestGetRandomCatImage(unittest.TestCase):
 
     @patch('cat.requests.get')  # Мокаем метод requests.get в модуле cat
